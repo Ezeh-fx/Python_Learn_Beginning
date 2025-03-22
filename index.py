@@ -3,45 +3,45 @@
 # # Variable
 
 # # strings
-# name = "John"
+name = "John"
 
 # # numbers
-# age = 30
+age = 30
 
 # # float
-# height = 1.75
+height = 1.75
 
 # # boolean
-# is_game = True
+is_game = True
 
-# print("Name: " + name)
-# print("Age:", age)  # ✅ Works without str()
-# print("Height: ",height)
-# print("Is Game: ",is_game)
+print("Name: " + name)
+print("Age:", age)  # ✅ Works without str()
+print("Height: ",height)
+print("Is Game: ",is_game)
 
 # Input
-# name = input("Enter your name: ")
-# print("Welcome, " + name + "!")
+name = input("Enter your name: ")
+print("Welcome, " + name + "!")
 
 # Mathematics
-# x = 10
-# y = 20
-# print(x + y)  # 30
-# print(y - x)  # 10
-# print(x * y)  # 200
-# print(y / x)  # 2.0
-# print(y // x)  # 2
-# print(y % x)  # 0
-# print(y ** x) # 10240000000000
+x = 10
+y = 20
+print(x + y)  # 30
+print(y - x)  # 10
+print(x * y)  # 200
+print(y / x)  # 2.0
+print(y // x)  # 2
+print(y % x)  # 0
+print(y ** x) # 10240000000000
 
 # Decision if ,Eilf ,Else
-# age = int(input("Enter your age: "))
-# if age < 18:
-#     print("You are a minor.")
-# elif age >= 18 and age < 60:
-#     print("You are an adult.")
-# else:
-#     print("You are a senior citizen.")
+age = int(input("Enter your age: "))
+if age < 18:
+    print("You are a minor.")
+elif age >= 18 and age < 60:
+    print("You are an adult.")
+else:
+    print("You are a senior citizen.")
 
 
 # Loop Repeating Action
@@ -54,8 +54,8 @@ while count < 5:
 
 # for
 vidoe_Game = ["Game", "Game2", "Game3"]
-# for game in vidoe_Game:
-#     print(game)
+for game in vidoe_Game:
+    print(game)
 
 
 # list
